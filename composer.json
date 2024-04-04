@@ -1,0 +1,23 @@
+{
+    "name": "tahirmahm123/nextdns",
+    "description": "SDK For Next DNS Api Integration",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7",
+        "php": "^8.0",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NextDNS\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tahir Mahmood",
+            "email": "tahirmahm123@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
